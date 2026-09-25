@@ -41,7 +41,7 @@ if errorlevel 1 (
 
 git diff --cached --quiet
 if not errorlevel 1 (
-  echo [INFO] Nothing new to commit.
+  echo [2/3] Committing ... skipped, nothing new.
   goto :push
 )
 
